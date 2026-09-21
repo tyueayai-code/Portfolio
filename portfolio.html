@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tichakorn Yueayai | Portfolio</title>
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;600;700;800&family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <canvas id="stardust-canvas"></canvas>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="brand" title="คลิกเพื่อกลับไปหน้า Holo Matrix">
+      <div class="brand-rune"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+      <span>TICHAKORN.DEV</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#journey">Chronicles</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="pulse"></span>
+        <span>STATUS: READY TO CONJURE CODE & INNOVATION</span>
+      </div>
+      <h1 class="hero-title">
+      Tichakorn Yueayai  <br>
+        <span class="glow-text">Full-Stack Developer</span>
+      </h1>
+      <p class="hero-subtitle">
+        Bridging analytical rigor and quality engineering into modern web development. Graduate of Generation Thailand’s intensive Junior Software Developer Program (JSD13), committed to building scalable web applications with clean code, robust architecture, and a continuous learning mindset.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-magic btn-primary">
+          <i class="fa-solid fa-scroll"></i> (Projects)
+        </a>
+        <a href="index.html" class="btn-magic btn-secondary">
+          <i class="fa-solid fa-cube"></i> CV
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-orb-wrap">
+      <div class="magic-circle"></div>
+      <div class="magic-circle-inner"></div>
+      <img 
+  src="C:\JSD13\coding\Portfoilo\src\profile.png" 
+  alt="Guitar" 
+  style="
+    width: 130px !important; 
+    height: 130px !important; 
+    border-radius: 50% !important; 
+    object-fit: cover !important; 
+    object-position: top center !important; 
+    display: block !important; 
+    margin: 0 auto 15px auto !important; 
+    border: 3px solid #00f0ff !important;
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.6) !important;
+  "
+>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="section-header">
+      <p class="section-subtitle">//01. ABOUT ME</p>
+      <h2 class="section-title">From Scientific Inquiry to Software Engineering</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Background & Core Philosophy</h3>
+        <p>
+       Hello, I'm  <strong>Guitar (Tichakorn Yueayai)</strong> Holding a Bachelor of Science in Food Science and Technology from Burapha University, my scientific background cultivated strong logical reasoning, data-driven analysis, and systematic problem-solving habits.
+        </p>
+        <p>
+         Driven by a passion for technology, I transitioned into software engineering through the highly competitive  <strong>Generation Thailand Junior Software Developer Bootcamp (Cohort 13)</strong> Over 14 weeks of full-time training, I engineered end-to-end full-stack applications, collaborated within Agile/Scrum teams, and honed professional behavioral skills and a high-growth mindset (BSM).
+      </div>
+
+      <div class="about-card">
+        <h3>Key Highlights</h3>
+        <div class="stat-list">
+          <div class="stat-item">
+            <div class="stat-number">14+ WEEKS</div>
+            <div class="stat-label">Intensive Bootcamp (JSD13)</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">AWARD</div>
+            <div class="stat-label">FoSTAT Contest 2025</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">YWC #20</div>
+            <div class="stat-label">Top 80 Young Webmaster</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">TEAM</div>
+            <div class="stat-label">Agile & Public Speaking</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section-alt">
+    <div class="section-header">
+      <p class="section-subtitle">// 02. TECHNICAL SKILLS</p>
+      <h2 class="section-title">Core Competencies & Technologies</h2>
+    </div>
+
+    <div class="skills-wrapper">
+      <div class="skill-card">
+        <i class="fa-brands fa-react skill-icon"></i>
+        <h4>Frontend Engineering</h4>
+        <p>Building performant, accessible, and responsive user interfaces with modular, component-based architecture.</p>
+        <div class="skill-tags">
+          <span class="skill-badge">HTML5</span>
+          <span class="skill-badge">CSS3</span>
+          <span class="skill-badge">JavaScript ES6+</span>
+          <span class="skill-badge">React.js</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-server skill-icon"></i>
+        <h4>Backend Architecture & Databases</h4>
+        <p>Designing secure RESTful endpoints, data validation layers, and scalable database schemas.</p>
+        <div class="skill-tags">
+          <span class="skill-badge">Node.js</span>
+          <span class="skill-badge">Express.js</span>
+          <span class="skill-badge">MongoDB</span>
+          <span class="skill-badge">PostgreSQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-lightbulb skill-icon"></i>
+        <h4>Engineering Practices & Professional Skills</h4>
+        <p>Adhering to collaborative software development standards and transparent communication.</p>
+        <div class="skill-tags">
+          <span class="skill-badge">Public Speaking</span>
+          <span class="skill-badge">Content Strategy</span>
+          <span class="skill-badge">Agile / Scrum</span>
+          <span class="skill-badge">Git / GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+    <div class="section-header">
+      <p class="section-subtitle">// 03. FEATURED PROJECTS</p>
+      <h2 class="section-title">Highlighted Engineering Works & Achievements</h2>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All Works</button>
+      <button class="filter-btn" data-filter="dev">Web & Software </button>
+      <button class="filter-btn" data-filter="innovation">Innovation & Camp</button>
+    </div>
+
+    <div class="project-grid" id="project-container">
+      
+      <!-- การ์ด 1: Go Thailand -->
+      <a href="project-gothailand.html" class="project-card" data-category="dev" style="text-decoration: none; color: inherit; display: flex; flex-direction: column; cursor: pointer; overflow: hidden; padding: 0;">
+        <div style="position: relative; width: 100%; height: 180px; overflow: hidden;">
+          <span class="project-category" style="position: absolute; top: 14px; right: 14px; z-index: 2; background: rgba(15, 23, 42, 0.75); color: #00f0ff; padding: 6px 14px; border-radius: 9999px; font-size: 12px; backdrop-filter: blur(6px); border: 1px solid rgba(0, 240, 255, 0.25);">
+            Full-Stack
+          </span>
+          <img 
+            src="src/GoThailand.png" 
+            alt="Go Thailand Web Application" 
+            style="width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; transition: transform 0.3s ease;"
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1.0)'"
+          >
+        </div>
+        <div class="project-body" style="padding: 20px;">
+          <h3 class="project-title">Go Thailand Web Application</h3>
+          <p class="project-desc">A full-stack travel discovery platform designed to promote local Thai tourism with modern client-server architecture.</p>
+          <div class="project-tags">
+            <span class="skill-badge">React.js</span>
+            <span class="skill-badge">Node.js</span>
+            <span class="skill-badge">MongoDB</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- การ์ด 2: FoSTAT (Got Natt') -->
+      <a href="project-fostat.html" class="project-card" data-category="innovation" style="text-decoration: none; color: inherit; display: flex; flex-direction: column; cursor: pointer; overflow: hidden; padding: 0;">
+        <div style="position: relative; width: 100%; height: 180px; overflow: hidden;">
+          <span class="project-category" style="position: absolute; top: 14px; right: 14px; z-index: 2; background: rgba(15, 23, 42, 0.75); color: #00f0ff; padding: 6px 14px; border-radius: 9999px; font-size: 12px; backdrop-filter: blur(6px); border: 1px solid rgba(0, 240, 255, 0.25);">
+            Award 2025
+          </span>
+          <img 
+            src="src/Fostat.png" 
+            alt="Got Natt FoSTAT" 
+            style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; transition: transform 0.3s ease;"
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1.0)'"
+          >
+        </div>
+        <div class="project-body" style="padding: 20px;">
+          <h3 class="project-title">Got Natt' : Probiotic Beverage</h3>
+          <p class="project-desc">Fermented soymilk drink integrated with lavender beads. Awarded National Honorable Mention at FoSTAT Contest 2025.</p>
+          <div class="project-tags">
+            <span class="skill-badge">FoSTAT 2025</span>
+            <span class="skill-badge">R&D</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- การ์ด 3: SPICE Program -->
+      <a href="project-spice.html" class="project-card" data-category="innovation" style="text-decoration: none; color: inherit; display: flex; flex-direction: column; cursor: pointer; overflow: hidden; padding: 0;">
+        <div style="position: relative; width: 100%; height: 180px; overflow: hidden;">
+          <span class="project-category" style="position: absolute; top: 14px; right: 14px; z-index: 2; background: rgba(15, 23, 42, 0.75); color: #00f0ff; padding: 6px 14px; border-radius: 9999px; font-size: 12px; backdrop-filter: blur(6px); border: 1px solid rgba(0, 240, 255, 0.25);">
+            Acceleration
+          </span>
+          <img 
+            src="src/spice.png" 
+            alt="Sangyod Rice Pancake with Inulin" 
+            style="width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; transition: transform 0.3s ease;"
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1.0)'"
+          >
+        </div>
+        <div class="project-body" style="padding: 20px;">
+          <h3 class="project-title">Sangyod Rice Pancake with Inulin</h3>
+          <p class="project-desc">Finalist in the SPICE Program (Eastpark, Burapha University), securing a 20,000 THB development grant.</p>
+          <div class="project-tags">
+            <span class="skill-badge">SPICE Finalist</span>
+            <span class="skill-badge">VC Pitching</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- การ์ด 4: Young Webmaster Camp (YWC #20) -->
+      <a href="project-ywc.html" class="project-card" data-category="dev" style="text-decoration: none; color: inherit; display: flex; flex-direction: column; cursor: pointer; overflow: hidden; padding: 0;">
+        <div style="position: relative; width: 100%; height: 180px; overflow: hidden;">
+          <span class="project-category" style="position: absolute; top: 14px; right: 14px; z-index: 2; background: rgba(15, 23, 42, 0.75); color: #00f0ff; padding: 6px 14px; border-radius: 9999px; font-size: 12px; backdrop-filter: blur(6px); border: 1px solid rgba(0, 240, 255, 0.25);">
+            Digital Media
+          </span>
+          <img 
+            src="src/YWCcertificate.png" 
+            alt="Young Webmaster Camp Certificate" 
+            style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; transition: transform 0.3s ease;"
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1.0)'"
+          >
+        </div>
+        <div class="project-body" style="padding: 20px;">
+          <h3 class="project-title">Young Webmaster Camp (YWC #20)</h3>
+          <p class="project-desc">Selected as one of 80 participants nationwide to master Content Strategy and digital media production at Thai PBS.</p>
+          <div class="project-tags">
+            <span class="skill-badge">Content Strategy</span>
+            <span class="skill-badge">Thai PBS</span>
+          </div>
+        </div>
+      </a>
+      </div>
+
+    </div>
+  <!-- CHRONICLES -->
+  <section id="journey" class="section-alt">
+    <div class="section-header">
+      <p class="section-subtitle">// 04. TIMELINE & CREDENTIALS</p>
+      <h2 class="section-title">Experience & Education</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <p class="timeline-date">JUNE 2026 – OCTOBER 2026</p>
+          <h3 class="timeline-title">Junior Software Developer Learner</h3>
+          <p class="timeline-subtitle">Generation Thailand (Cohort 13 - JSD13)</p>
+          <p class="timeline-body">14-week immersive training in Full-Stack Web Development, Agile Framework, and Behavioral Skills & Mindsets (BSM).</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <p class="timeline-date">NOVEMBER 2025 – MARCH 2026</p>
+          <h3 class="timeline-title">Quality Assurance Intern</h3>
+          <p class="timeline-subtitle">Nongpho Dairy Cooperative Ltd. (Under Royal Patronage)</p>
+          <p class="timeline-body">Enforced strict quality control standards and conducted the TEMPO CC research project to optimize microbial testing accuracy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-box">
+      <p class="section-subtitle">// INITIATE CONTACT</p>
+      <h2>Let's Build Something Together</h2>
+      <div class="contact-channels">
+        <a href="mailto:tyueayai@gmail.com" class="contact-chip">
+          <i class="fa-solid fa-envelope"></i> <span>tyueayai@gmail.com</span>
+        </a>
+        <a href="tel:0889954206" class="contact-chip">
+          <i class="fa-solid fa-phone"></i> <span>095-3524822</span>
+        </a>
+       
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Tichakorn Yueayai. All rights reserved. Full-Stack Developer Portfolio.</p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+  <!-- Popup Overlay & Card Container -->
+<div id="image-popup-modal" style="
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: rgba(3, 7, 18, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+">
+
+  <!-- Popup Card ตรงกลางจอ ขนาดกะทัดรัด -->
+  <div id="popup-card" style="
+    position: relative;
+    width: 100%;
+    max-width: 680px;
+    background: #0b1120;
+    border: 1px solid rgba(0, 240, 255, 0.35);
+    box-shadow: 0 0 35px rgba(0, 240, 255, 0.25), 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    border-radius: 18px;
+    overflow: hidden;
+    transform: scale(0.92);
+    opacity: 0;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  ">
+
+    <!-- ปุ่มกากบาทปิด (X) -->
+    <button id="popup-close-btn" style="
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      z-index: 10;
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(0, 240, 255, 0.4);
+      color: #00f0ff;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 18px;
+      transition: transform 0.2s, background 0.2s;
+    "
+    onmouseover="this.style.transform='scale(1.1)'; this.style.background='rgba(0, 240, 255, 0.2)';"
+    onmouseout="this.style.transform='scale(1.0)'; this.style.background='rgba(15, 23, 42, 0.85)';"
+    >
+      ✕
+    </button>
+
+    <!-- กรอบรูปภาพ -->
+    <div style="width: 100%; max-height: 440px; overflow: hidden; background: #030712; display: flex; align-items: center; justify-content: center;">
+      <img id="popup-img" src="" alt="Popup Preview" style="width: 100%; height: auto; max-height: 440px; object-fit: contain; display: block;">
+    </div>
+
+    <!-- แถบข้อความด้านล่างภาพ -->
+    <div style="padding: 14px 20px; background: rgba(15, 23, 42, 0.9); border-top: 1px solid rgba(0, 240, 255, 0.15); display: flex; justify-content: space-between; align-items: center;">
+      <span id="popup-title" style="color: #e2e8f0; font-family: 'Chakra Petch', sans-serif; font-weight: 600; font-size: 14px;"></span>
+      <span style="color: #00f0ff; font-family: monospace; font-size: 11px; letter-spacing: 1px;">PREVIEW MODE</span>
+    </div>
+
+  </div>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('image-popup-modal');
+    const card = document.getElementById('popup-card');
+    const popupImg = document.getElementById('popup-img');
+    const popupTitle = document.getElementById('popup-title');
+    const closeBtn = document.getElementById('popup-close-btn');
+
+    // ดักคลิกที่รูปภาพในการ์ดโปรเจกต์ทุกใบ
+    const projectImgs = document.querySelectorAll('.project-card img');
+
+    projectImgs.forEach((img) => {
+      img.style.cursor = 'pointer';
+
+      img.addEventListener('click', (e) => {
+        // ป้องกันไม่ให้การ์ดกระโดดข้ามหน้า
+        e.preventDefault();
+        e.stopPropagation();
+
+        // นำภาพและชื่อ alt มาแสดง
+        popupImg.src = img.src;
+        popupTitle.innerText = img.alt || 'Project Preview';
+
+        // แสดง Modal พร้อมอนิเมชัน Zoom นุ่มๆ
+        modal.style.display = 'flex';
+        setTimeout(() => {
+          card.style.transform = 'scale(1)';
+          card.style.opacity = '1';
+        }, 10);
+      });
+    });
+
+    // ฟังก์ชันปิด Popup
+    function closePopup() {
+      card.style.transform = 'scale(0.92)';
+      card.style.opacity = '0';
+      setTimeout(() => {
+        modal.style.display = 'none';
+      }, 200);
+    }
+
+    closeBtn.addEventListener('click', closePopup);
+
+    // คลิกนอกกล่อง (พื้นที่เบลอด้านหลัง) เพื่อปิด
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        closePopup();
+      }
+    });
+
+    // กดปุ่ม ESC บนคีย์บอร์ดเพื่อปิด
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.style.display === 'flex') {
+        closePopup();
+      }
+    });
+  });
+</script>
+</body>
+</html>
